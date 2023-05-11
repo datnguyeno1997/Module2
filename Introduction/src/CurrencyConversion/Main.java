@@ -11,5 +11,10 @@ public class Main {
         usd = scanner.nextDouble();
         double quydoi = usd * 23000;
         System.out.print("Giá tiền VND: " + quydoi);
+
     }
 }
+
+
+
+

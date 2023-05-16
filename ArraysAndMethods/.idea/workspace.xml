@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1394176-7b7b-4e03-9ec9-d8fb38c20d44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArraysAndMethods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddElement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindTheLargestValue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindTheSmallest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindValueInArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveElement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseTheElementsOfAnArray/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemperatureConversion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheNumberOfStudents/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PdWpBzmNId0d1aMrvqUwDVoxKv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/moduel2/hellojava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "D:/moduel2/ArraysAndMethods/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.TemperatureConversion.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddElement.Main" />
+      <module name="ArraysAndMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AddElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeArray.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeArray.Main" />
+      <module name="ArraysAndMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MergeArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConversion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TemperatureConversion.Main" />
+      <module name="ArraysAndMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TemperatureConversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a" />
+      <module name="ArraysAndMethods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="ArraysAndMethods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TemperatureConversion.Main" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.MergeArray.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.a" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1394176-7b7b-4e03-9ec9-d8fb38c20d44" name="Changes" comment="" />
+      <created>1683787622334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683787622334</updated>
+      <workItem from="1683787623332" duration="5876000" />
+      <workItem from="1683820421883" duration="3267000" />
+      <workItem from="1683853408000" duration="2630000" />
+      <workItem from="1683874095487" duration="7843000" />
+      <workItem from="1684114514165" duration="1426000" />
+      <workItem from="1684119271265" duration="281000" />
+      <workItem from="1684125030811" duration="645000" />
+      <workItem from="1684132603251" duration="68000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

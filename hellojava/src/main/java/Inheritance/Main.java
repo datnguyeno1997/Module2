@@ -17,7 +17,7 @@
 //Một số dạng kế thừa:
 //Single: 1 lớp kế thừa từ 1 lớp cha          Class B ----> Class A
 //Multilevel: 1 lớp kế thừ từ 1 lớp cha, lớp cha lại kế thừa từ lớp khác trên nó      Class C -----> Class B -----> CLass A
-//Hierarchical: 1 lớp cha có nhiều lớp con với nhiều level khác nhau
+//Hierarchical: 1 lớp cha có nhiều lớp con với nhiều level khác nhauơ
 //Multiple: Một lớp con kế thừa từ nhiều lớp cha
 
 //Cú pháp:

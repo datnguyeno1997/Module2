@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf7d36a7-b105-400c-95e1-16df11e71404" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AbstractClassAndInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractClassAndInterface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysAndMethods/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysAndMethods/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysAndMethods/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysAndMethods/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysAndMethods/src/TheSmallest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysAndMethods/src/TheSmallest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassAndObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassAndObject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DHA_List/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DHA_List/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DHA_List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DHA_List/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DHA_List/src/ArrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DHA_List/src/ArrayList/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA_Stack_Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA_Stack_Queue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCollection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCollection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchAlgorithm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchAlgorithm/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/KySu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/QLCB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QY6MQeALjNAZQeXw8wTsuc6XKK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/moduel2/AlgorithmSorting",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/moduel2/AlgorithmSorting/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
+      <module name="AlgorithmSorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSortByStep" />
+      <module name="AlgorithmSorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
+      <module name="AlgorithmSorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSortByStep" />
+        <item itemvalue="Application.BubbleSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf7d36a7-b105-400c-95e1-16df11e71404" name="Changes" comment="" />
+      <created>1685518120580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685518120580</updated>
+      <workItem from="1685518121566" duration="4586000" />
+      <workItem from="1685581557267" duration="27000" />
+      <workItem from="1685950315063" duration="1231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

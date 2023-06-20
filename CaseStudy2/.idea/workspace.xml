@@ -5,47 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2cd763-a660-4702-9645-f0501c08c538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/gympackages.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/product.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/staff.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/ticket.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/EPt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ERole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/GymPackages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Pt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/GymPackagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IGymPackagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IPtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IStaffService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ITicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/PtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/StaffService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ValidateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/CustomerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/GymPackagesView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ProductView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PtView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/StaffView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/TicketView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ViewAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractClassAndInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractClassAndInterface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgorithmSorting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSorting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysAndMethods/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysAndMethods/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysAndMethods/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysAndMethods/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysAndMethods/src/TheSmallest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysAndMethods/src/TheSmallest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryFileAndSerialization/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryFileAndSerialization/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryFileAndSerialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryFileAndSerialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/customer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/customer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/gympackages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gympackages.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/staff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/staff.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TicketView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TicketView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassAndObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassAndObject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DHA_List/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DHA_List/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DHA_List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DHA_List/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DHA_List/src/ArrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DHA_List/src/ArrayList/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA_Stack_Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA_Stack_Queue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_Text File/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IO_Text File/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCollection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCollection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchAlgorithm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchAlgorithm/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringAndRegex/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringAndRegex/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringAndRegex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringAndRegex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threading/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Threading/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/KySu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hellojava/src/main/java/Ex/QLCB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +53,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2R8k8uNLb6a6Ccf1wn7wUhCALh9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -70,24 +61,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/moduel2/CaseStudy2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/moduel2/CaseStudy2/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/moduel2/CaseStudy2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/moduel2/CaseStudy2/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\moduel2\CaseStudy2\src\data" />
@@ -199,7 +191,7 @@
       <workItem from="1687143023859" duration="1032000" />
       <workItem from="1687161971932" duration="8728000" />
       <workItem from="1687188896738" duration="8213000" />
-      <workItem from="1687223320796" duration="2308000" />
+      <workItem from="1687223320796" duration="5034000" />
     </task>
     <servers />
   </component>

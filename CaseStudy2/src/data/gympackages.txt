@@ -5,3 +5,5 @@
 182,Gói 3 Tháng Vip,1500000.0,Có_Pt,3
 206,Gói 6 Tháng Vip,1800000.0,Có_Pt,6
 352,Gói 9 Tháng Vip,2400000.0,Có_Pt,9
+922,Gói 1 ngày,100000.0,Không,1
+765,gói 2 ngày,200000.0,Không,2

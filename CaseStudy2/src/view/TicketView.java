@@ -8,7 +8,6 @@ import utils.ValidateUtils;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -211,142 +210,77 @@ public class TicketView {
     private void inputTicket(int ACTION, Ticket ticket) {
         long idcustomer;
         String strACTION = ACTION == INPUT_TICKET_ADD ? "" : "mới";
-        boolean checkActionMenu;
-        do {
-            checkActionMenu = true;
-            System.out.println("Chọn loại khách hàng: ");
-            System.out.println("1.Khách hàng mới.");
-            System.out.println("2.Khách hàng đã có thẻ.");
-            int actionMenuTicket = Integer.parseInt(scanner.nextLine());
-            switch (actionMenuTicket) {
-                case 1:
-                    idcustomer = customerView.addCustomerNew();
-                    ticket.setIdCustomer(idcustomer);
-                    break;
-                case 2:
-                    boolean validCustomerId = false;
-                    do {
-                        try {
-                            customerView.showCustomer(icustomerService.getAllCustomer());
-                            System.out.println("Chọn id khách hàng: ");
+        System.out.println("Chọn loại khách hàng: ");
+        System.out.println("1.Khách hàng mới.");
+        System.out.println("2.Khách hàng đã có thẻ.");
+        int actionMenuTicket = Integer.parseInt(scanner.nextLine());
 
-                            idcustomer = Integer.parseInt(scanner.nextLine());
-                            Customer customer = icustomerService.findCustomerById(idcustomer);
-                            if (customer != null) {
-                                ticket.setIdCustomer(idcustomer);
-                                validCustomerId = true;
-                            } else {
-                                System.out.println("Khách hàng không tồn tại");
-                            }
-                        } catch (Exception e) {
-                            System.out.println("ID khách hàng không hợp lệ.");
-                        }
-                    } while (!validCustomerId);
-                    break;
-                default:
-                    System.out.println("Nhập không đúng, vui lòng nhập lại !!!");
-                    continue;
+        switch (actionMenuTicket) {
+            case 1:
+                idcustomer = customerView.addCustomerNew();
+                ticket.setIdCustomer(idcustomer);
+                break;
+            case 2:
+                customerView.showCustomer(icustomerService.getAllCustomer());
+                System.out.println("Chọn id khách hàng: ");
+                idcustomer = Integer.parseInt(scanner.nextLine());
+                ticket.setIdCustomer(idcustomer);
+                break;
+        }
+
+        gymPackagesView.showGymPackages(iGymPackagesService.getAllGymPackages());
+        System.out.println("Vui lòng chọn Id gói tập");
+        long idGymPackages = Long.parseLong(scanner.nextLine());
+        ticket.setIdGymPackages(idGymPackages);
+
+        if (iGymPackagesService.checkHasPtByGymPackagesId(idGymPackages)) {
+            //chọn Pt và tạo Pt
+            staffView.showPt(iStaffService.getAllStaff());
+            System.out.println("Gói này bao gồm tập với Pt. Vui lòng chọn Pt ");
+            long idPt = Long.parseLong(scanner.nextLine());
+
+            ticket.setIdPt(idPt);
+            System.out.println("Nhập thời gian tập (ví dụ: 07:30): ");
+            LocalTime timeStart = LocalTime.parse(scanner.nextLine());
+            ticket.setTimeStart(timeStart);
+            System.out.println("Thời gian tập từng buổi (Ví dụ: 2):");
+            int time = Integer.parseInt(scanner.nextLine());
+            ticket.setTime(time);
+        }
+
+        GymPackages gymPackages = iGymPackagesService.findGymPackagesById(idGymPackages);
+        inputDiscountTicket(strACTION, ACTION, ticket);
+        float price = gymPackages.getPrice();
+        float fee = price - (price * ticket.getDiscount() / 100);
+        ticket.setFee(fee);
+
+        inputDateStartTicket(strACTION, ACTION, ticket);
+        int month = gymPackages.getMonth();
+        LocalDate dateEnd = ticket.getDateStart().plusMonths(month);
+        ticket.setDateEnd(dateEnd);
+
+    }
+
+    private void showTicket(List<Ticket> tickets) {
+        System.out.printf("%-10s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s \n",
+                "ID", "NAME CUSTOMER", "NAME PACKAGES", "DAYSTART", "DAYEND", "TIMESTART", "TIME", "PT", "PRICE", "DISCOUNT");
+        for (Ticket item : tickets) {
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+            String start = item.getDateStart().format(formatter);
+            String end = item.getDateEnd().format(formatter);
+            DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("HH:mm");
+            String startTime = item.getTimeStart() == null ? "" : item.getTimeStart().format(formatter2);
+            String time = item.getTime() == 0 ? "" : item.getTime().toString();
+            Customer customer = icustomerService.findCustomerById(item.getIdCustomer());
+            GymPackages gymPackages = iGymPackagesService.findGymPackagesById(item.getIdGymPackages());
+            Staff pt = iStaffService.findStaffById(item.getIdPt());
+            String namePt = "Không có PT";
+            if (pt != null) {
+                namePt = pt.getFullName();
             }
-
-            boolean validGymPackageId = false;
-            long idGymPackages = 0;
-            do {
-                try {
-                    gymPackagesView.showGymPackages(iGymPackagesService.getAllGymPackages());
-                    System.out.println("Vui lòng chọn Id gói tập");
-                    idGymPackages = Long.parseLong(scanner.nextLine());
-                    GymPackages gymPackages = iGymPackagesService.findGymPackagesById(idGymPackages);
-                    if (gymPackages != null) {
-                        ticket.setIdGymPackages(idGymPackages);
-                        validGymPackageId = true;
-                    } else {
-                        System.out.println("Gói tập không tồn tại.");
-                    }
-                } catch (Exception e) {
-                    System.out.println("ID gói tập không hợp lệ.");
-                }
-            } while (!validGymPackageId);
-
-            if (iGymPackagesService.checkHasPtByGymPackagesId(idGymPackages)) {
-                //chọn Pt và tạo Pt
-                boolean validPtId = false;
-                do {
-                    try {
-                        staffView.showPt(iStaffService.getAllStaff());
-                        System.out.println("Gói này bao gồm tập với Pt. Vui lòng chọn Pt ");
-                        long idPt = Long.parseLong(scanner.nextLine());
-                        Staff pt = iStaffService.findStaffById(idPt);
-                        if (pt != null) {
-                            validPtId = true;
-                            ticket.setIdPt(idPt);
-                            inputPtDetails(ticket);
-                        } else {
-                            System.out.println("ID Pt không tồn tại.");
-                        }
-                    } catch (Exception e) {
-                        System.out.println("ID Pt không hợp lệ");
-                    }
-                } while (!validPtId);
-                        }
-                        GymPackages gymPackages = iGymPackagesService.findGymPackagesById(idGymPackages);
-                        inputDiscountTicket(strACTION, ACTION, ticket);
-                        float price = gymPackages.getPrice();
-                        float fee = price - (price * ticket.getDiscount() / 100);
-                        ticket.setFee(fee);
-
-                        inputDateStartTicket(strACTION, ACTION, ticket);
-
-                        int month = gymPackages.getMonth();
-                        LocalDate dateEnd = ticket.getDateStart().plusMonths(month);
-                        ticket.setDateEnd(dateEnd);
-                    }
-                    while (checkActionMenu) ;
-                }
-
-                private void inputPtDetails (Ticket ticket){
-                    try {
-                        System.out.println("Nhập thời gian tập (ví dụ: 07:30): ");
-                        LocalTime timeStart = LocalTime.parse(scanner.nextLine());
-                        ticket.setTimeStart(timeStart);
-                    } catch (Exception e) {
-                        System.out.println("Sai định dạng, vui lòng nhập lại!");
-                        inputPtDetails(ticket);
-                        return;
-                    }
-                    boolean validInput = false;
-                    while (!validInput) {
-                        try {
-                            System.out.println("Thời gian tập từng buổi (Ví dụ: 2):");
-                            int time = Integer.parseInt(scanner.nextLine());
-                            ticket.setTime(time);
-                            validInput = true;
-                        } catch (Exception e) {
-                            System.out.println("Sai định dạng thời gian, vui lòng nhập lại!");
-                        }
-                    }
-                }
-
-                private void showTicket (List < Ticket > tickets) {
-                    System.out.printf("%-10s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s \n",
-                            "ID", "NAME CUSTOMER", "NAME PACKAGES", "DAYSTART", "DAYEND", "TIMESTART", "TIME", "PT", "PRICE", "DISCOUNT");
-                    for (Ticket item : tickets) {
-                        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-                        String start = item.getDateStart().format(formatter);
-                        String end = item.getDateEnd().format(formatter);
-                        DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("HH:mm");
-                        String startTime = item.getTimeStart() == null ? "" : item.getTimeStart().format(formatter2);
-                        String time = item.getTime() == 0 ? "" : item.getTime().toString();
-                        Customer customer = icustomerService.findCustomerById(item.getIdCustomer());
-                        GymPackages gymPackages = iGymPackagesService.findGymPackagesById(item.getIdGymPackages());
-                        Staff pt = iStaffService.findStaffById(item.getIdPt());
-                        String namePt = "Không có PT";
-                        if (pt != null) {
-                            namePt = pt.getFullName();
-                        }
-                        System.out.printf("%-10s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s \n",
-                                item.getId(), customer.getName(), gymPackages.getName(), start
-                                , end, startTime, time, namePt, item.getFee(), item.getDiscount());
-                    }
-                }
-
-            }
+            System.out.printf("%-10s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s | %-20s \n",
+                    item.getId(), customer.getName(), gymPackages.getName(), start
+                    , end, startTime, time, namePt, item.getFee(), item.getDiscount());
+        }
+    }
+}

@@ -1,0 +1,7 @@
+939,Gói 3 Tháng,900000.0,Không,3
+626,Gói 6 Tháng,1200000.0,Không,6
+191,Gói 9 Tháng,1600000.0,Không,9
+307,Gói 12 Tháng,2200000.0,Không,12
+182,Gói 3 Tháng Vip,1500000.0,Có_Pt,3
+206,Gói 6 Tháng Vip,1800000.0,Có_Pt,6
+352,Gói 9 Tháng Vip,2400000.0,Có_Pt,9

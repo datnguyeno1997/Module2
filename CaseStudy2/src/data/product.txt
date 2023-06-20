@@ -1,0 +1,2 @@
+123,Tạ Đơn,10,Ta tay chất liệu sắt không rỉ nặng 5kg
+304,Tạ chân,20,Thanh đòn chất liệu không rỉ nặng 15kg

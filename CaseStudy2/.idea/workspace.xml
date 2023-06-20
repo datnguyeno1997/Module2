@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f2cd763-a660-4702-9645-f0501c08c538" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/customer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/gympackages.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/product.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/staff.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/ticket.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/EPt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/GymPackages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Pt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/GymPackagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/IGymPackagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/IPtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/IStaffService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ITicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/PtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/StaffService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/CustomerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/GymPackagesView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/PtView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/StaffView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/TicketView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ViewAll.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2R8k8uNLb6a6Ccf1wn7wUhCALh9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/moduel2/CaseStudy2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/moduel2/CaseStudy2/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\moduel2\CaseStudy2\src\data" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ViewAll">
+    <configuration name="CustomerView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.CustomerView" />
+      <module name="CaseStudy2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PtView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.PtView" />
+      <module name="CaseStudy2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaffView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.StaffView" />
+      <module name="CaseStudy2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.TicketView" />
+      <module name="CaseStudy2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.ViewAll" />
+      <module name="CaseStudy2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ViewAll" />
+        <item itemvalue="Application.TicketView" />
+        <item itemvalue="Application.PtView" />
+        <item itemvalue="Application.StaffView" />
+        <item itemvalue="Application.CustomerView" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f2cd763-a660-4702-9645-f0501c08c538" name="Changes" comment="" />
+      <created>1686638942686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686638942686</updated>
+      <workItem from="1686638943762" duration="12027000" />
+      <workItem from="1686668658500" duration="1623000" />
+      <workItem from="1686704596474" duration="9984000" />
+      <workItem from="1686715452378" duration="824000" />
+      <workItem from="1686724474609" duration="13000" />
+      <workItem from="1686724521063" duration="372000" />
+      <workItem from="1686735924495" duration="2984000" />
+      <workItem from="1686791127620" duration="2668000" />
+      <workItem from="1686801211177" duration="16831000" />
+      <workItem from="1686877728617" duration="2000" />
+      <workItem from="1686889261289" duration="2319000" />
+      <workItem from="1686897256864" duration="11067000" />
+      <workItem from="1687074181261" duration="11744000" />
+      <workItem from="1687136707572" duration="1271000" />
+      <workItem from="1687138025383" duration="118000" />
+      <workItem from="1687138221396" duration="3546000" />
+      <workItem from="1687143023859" duration="1032000" />
+      <workItem from="1687161971932" duration="8728000" />
+      <workItem from="1687188896738" duration="8213000" />
+      <workItem from="1687223320796" duration="2308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
